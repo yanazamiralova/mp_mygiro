@@ -1,0 +1,164 @@
+.wrapper {
+    width: 1920px;
+    height: 2679px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+    float: right;
+
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+}
+
+header p{
+    float: left;
+    font-size: 20px;
+}
+header {
+    padding: 0 392px;
+    height: 70px;
+}
+.banner img{
+    width: 1920px;
+    height: 877px;
+}
+.banner {
+    width: 1920px;
+    height: 877px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+
+section p{
+    align-items: center;
+    justify-content: center;
+    padding-top: 300px;
+    font-size: 15pt;
+}
+span {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+}
+.onas {
+    margin-top: 50px;
+    padding: 0 392px;
+    margin-bottom: 50px;
+    border: 1px solid white;
+}
+.onas p:nth-child(1) {
+    font-size: 30px;
+}
+.onas p:nth-child(2) {
+    font-size: 20px;
+}
+.catalog {
+    padding: 0 392px;
+    background-color: #EEF2E3;
+    height: 614px;
+    padding-top: 50px;
+
+
+}
+.catalog ul {
+    margin: 0;
+    padding: 0;
+    font-size: 15pt;
+    padding-top: 30px;
+}
+.li{
+    background-color: orange;
+    border-radius: 15px;
+    color: white;
+}
+.Segvey span{
+    background-color: orange;
+    border-radius: 0 15px 15px 0;
+    color: white;
+    float: left;
+
+}
+.katalog{
+
+    font-size: 36px;
+}
+.name{
+    font-size: 16px;
+}
+.prise {
+    font-size: 20px;
+}
+.sig {
+    background-color: white;
+    width: 261px;
+    height: 380px;
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px 3px rgb(169, 167, 167);
+
+    display: inline-block;
+    margin-right: 16px;
+}
+.name, .prise{
+    padding-left: 20px;
+    margin: 5px;
+}
+.photo {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.polez img{
+    width: 261px;
+    height: 261px;
+    margin-right: 16px;
+}
+.polez {
+    margin-top: 30px;
+    padding: 0 392px;
+    margin-bottom: 50px;
+    border: 1px solid white;
+}
+.polez p{
+    font-size: 36px;
+}
+footer{
+    padding: 0 392px;
+    background-color: #EEF2E3;
+    height: 614px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section{
+    display: flex;
+}
+
+footer div{
+    margin-left: 42px;
+}
+
+footer ul{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li{
+    color: black; 
+    list-style-type: none;
+    display: block;
+}
